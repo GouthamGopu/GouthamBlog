@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GouthamBlog
 
-## Getting Started
+**GouthamBlog** is a simple blog project built for practicing the [shadcn/ui](https://ui.shadcn.dev/) library and integrating some AI assistance. The blog features a homepage, an "About Me" page, and a "Blog" section with various tutorials on programming topics like C, C++, and CSS, along with a comparison between top AI competitors.
 
-First, run the development server:
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Pages](#pages)
+- [Technologies Used](#technologies-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+GouthamBlog serves as a personal project to explore and practice UI design using shadcn/ui and experiment with some AI-related content. The blog consists of multiple pages, including tutorials and a comparison of ChatGPT and Gemini.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
+- **Homepage**: Welcomes users to the blog.
+- **About Me**: Information about Goutham, the author of the blog.
+- **Blog Page**: Contains four blogs on programming and AI topics:
+  1. **C Programming Tutorial** 
+     Overview: A beginner-friendly tutorial on learning C programming.
+  2. **ChatGPT vs. Gemini**  
+     Overview: A comparison between two leading AI competitors—ChatGPT and Gemini.
+  3. **C++ Programming Tutorial**  
+     Overview: An introduction to C++ programming for beginners.
+  4. **CSS Tutorial**  
+     Overview: A comprehensive guide to learning CSS for web development.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Pages
 
-## Learn More
+- **Home Page**: Welcomes visitors to the blog with a brief introduction.
+- **About Me Page**: Shares background information about Goutham.
+- **Blog Page**: Lists all blog posts along with their titles, brief descriptions, publication dates, and a link to read more.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: HTML, CSS, JavaScript
+- **UI Framework**: [shadcn/ui](https://ui.shadcn.dev/)
+- **AI Assistance**: Integrated AI elements to provide dynamic content
+- **Version Control**: Git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How to Run the Project
 
-## Deploy on Vercel
+1. **Clone the Repository**  
+   ```bash
+   git clone # GouthamBlog
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**GouthamBlog** is a simple blog project built for practicing the [shadcn/ui](https://ui.shadcn.dev/) library and integrating some AI assistance. The blog features a homepage, an "About Me" page, and a "Blog" section with various tutorials on programming topics like C, C++, and CSS, along with a comparison between top AI competitors.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Pages](#pages)
+- [Technologies Used](#technologies-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [License](#license)
+
+## Overview
+
+GouthamBlog serves as a personal project to explore and practice UI design using shadcn/ui and experiment with some AI-related content. The blog consists of multiple pages, including tutorials and a comparison of ChatGPT and Gemini.
+
+## Features
+- **Homepage**: Welcomes users to the blog.
+- **About Me**: Information about Goutham, the author of the blog.
+- **Blog Page**: Contains four blogs on programming and AI topics:
+  1. **C Programming Tutorial**  
+     Published on: 15 September 2024  
+     Overview: A beginner-friendly tutorial on learning C programming.
+  2. **ChatGPT vs. Gemini**  
+     Published on: 10 August 2024  
+     Overview: A comparison between two leading AI competitors—ChatGPT and Gemini.
+  3. **C++ Programming Tutorial**  
+     Published on: 11 December 2023  
+     Overview: An introduction to C++ programming for beginners.
+  4. **CSS Tutorial**  
+     Published on: 29 May 2024  
+     Overview: A comprehensive guide to learning CSS for web development.
+
+## Pages
+
+- **Home Page**: Welcomes visitors to the blog with a brief introduction.
+- **About Me Page**: Shares background information about Goutham.
+- **Blog Page**: Lists all blog posts along with their titles, brief descriptions, publication dates, and a link to read more.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **UI Framework**: [shadcn/ui](https://ui.shadcn.dev/)
+- **AI Assistance**: Integrated AI elements to provide dynamic content
+- **Version Control**: Git
+
+## How to Run the Project
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/GouthamGopu/GouthamBlog.git
+
