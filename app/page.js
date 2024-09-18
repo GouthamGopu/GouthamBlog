@@ -9,7 +9,7 @@ export default function Home() {
 
     useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ['Coding', 'Web Development', 'Software Engineering'],
+        strings: ['Coding', 'Software Engineering','Web Development'],
         typeSpeed: 50,
       });
   
@@ -24,10 +24,11 @@ export default function Home() {
       <section className="container px-4 py-10 mx-auto lg:h-128 lg:space-x-8 lg:flex lg:items-center">
         <div className="w-full text-center lg:text-left lg:w-1/2 lg:-mt-8">
           <h1 className="text-3xl leading-snug text-gray-800 dark:text-gray-200 md:text-4xl">
-            A <span className="font-semibold">free repository</span> for community <br className="hidden lg:block" /> components using <span className="font-semibold underline decoration-primary"><span ref={el} /></span>
+          Welcome to <span className="font-semibold">my personal blog</span>, <br className="hidden lg:block" />where I share knowledge about <br className="hidden lg:block" /><span className="font-semibold underline decoration-primary"><span ref={el} /></span>
           </h1>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-            Open source Tailwind UI components and templates to <br className="hidden lg:block" /> bootstrap your new apps, projects or landing sites!
+          Discover insights on web development, tech trends,
+          and coding tutorials to help you build amazing projects!
           </p>
           <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
             <form action="https://www.creative-tim.com/twcomponents/search" className="flex flex-wrap justify-between md:flex-row">
